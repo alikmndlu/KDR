@@ -14,9 +14,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#09509B',
-        secondary: '#0472A1',
-        footer: '#161B22'
+        primary: 'var(--color-primary)',
+        secondary: 'var(--color-secondary)',
+        tertiary: 'var(--color-tertiary)',
+        footer: 'var(--color-footer)'
       },
       fontFamily: {
         sans: ['IRANSansX', 'sans-serif'],
